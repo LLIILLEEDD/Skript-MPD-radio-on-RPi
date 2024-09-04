@@ -18,7 +18,8 @@ This Bash script automates the setup of a Raspberry Pi to play a specific radio 
 After running this script, your Raspberry Pi will be fully configured to automatically start the specified radio stream on boot and maintain it with regular restarts.
 
 
-to change the hosting, just change the line ```mpc add https://radio.real-drift.com/stream``` url address in _/usr/local/bin/start-radio.sh_
+To change the hosting, just change the line ```mpc add https://radio.real-drift.com/stream``` url address in _/usr/local/bin/start-radio.sh_
+To change the playback volume, change the numerical value in the line ```mpc volume 100``` in _/usr/local/bin/start-radio.sh_
 
 ```systemctl enable start-radio.service```
 ![image](https://github.com/user-attachments/assets/1da1b9e2-f21a-4e90-8ccb-aa49e5d6fe17)
