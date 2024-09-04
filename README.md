@@ -1,5 +1,5 @@
 # radio-on-RPi
-This Bash script automates the setup of a Raspberry Pi to play a specific radio stream automatically on system startup. Just run this script on Raspberry Pi and you will have endlessly playing **phonk**, or any other music that is hosted on the Internet. It simplifies the process by:
+This Bash script automates the setup of a Raspberry Pi to play a specific radio stream automatically on system startup. Just run this script on Raspberry Pi and you will have endlessly playing **phonk**, or any other music that is hosted on the Internet. Such a device can be useful for placement with speakers in various locations of the building, for example in the hall, elevator, toilet, etc.
 
 ## Included software
 - Music Player Daemon (MPD)
